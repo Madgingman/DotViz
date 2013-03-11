@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" name="Default" comment="" />
+    <list default="true" id="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/example2.js" afterPath="$PROJECT_DIR$/js/example2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filereader.html" afterPath="$PROJECT_DIR$/filereader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jit.js" afterPath="$PROJECT_DIR$/js/jit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Probe1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362733335945" ignored="false" />
-    <file path="/fragment.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362729400078" ignored="false" />
+    <file path="/fragment.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1363030381347" ignored="false" />
     <file path="/example1.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362731920028" ignored="false" />
-    <file path="/example2.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362733240689" ignored="false" />
+    <file path="/example2.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1363032695933" ignored="false" />
     <file path="/base.css" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362733469503" ignored="false" />
     <file path="/a.dummy" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362733813236" ignored="false" />
-    <file path="/Dummy.txt" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362734070125" ignored="false" />
+    <file path="/Dummy.txt" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1363023740771" ignored="false" />
+    <file path="/jit.js" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1362741114714" ignored="false" />
+    <file path="/filereader.html" changelist="6bb6f9f4-bfd2-435a-8c2c-00809040eccd" time="1363029705960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="118" selection-start="852" selection-end="852" vertical-scroll-proportion="0.029565217">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="18" column="68" selection-start="824" selection-end="824" vertical-scroll-proportion="11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filereader.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filereader.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="23" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-5.4615383">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example2.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="example2.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/example2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="639" column="82" selection-start="15776" selection-end="15776" vertical-scroll-proportion="0.0">
+            <state line="506" column="19" selection-start="14748" selection-end="14748" vertical-scroll-proportion="0.6785714">
               <folding />
             </state>
           </provider>
@@ -62,8 +76,11 @@
       <file leaf-file-name="jit.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2622" column="39" selection-start="73204" selection-end="73204" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="6696" column="20" selection-start="214088" selection-end="214091" vertical-scroll-proportion="-6.32">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#478858#480585#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +108,9 @@
         <option value="$PROJECT_DIR$/example2.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/base.css" />
+        <option value="$PROJECT_DIR$/filereader.html" />
+        <option value="$PROJECT_DIR$/js/jit.js" />
+        <option value="$PROJECT_DIR$/js/example2.js" />
       </list>
     </option>
   </component>
@@ -155,6 +175,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -168,8 +189,17 @@
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="chrome" />
-        <option name="fileUrl" value="file://$PROJECT_DIR$/index.html" />
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file:///C:/DATA/Study/Software/Project/Proj2013/project/DotViz/index.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="filereader.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file:///C:/DATA/Study/Software/Project/Proj2013/project/DotViz/filereader.html" />
       </JSDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -190,12 +220,15 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.filereader.html" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.filereader.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -226,14 +259,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11988086" sideWeight="0.7464115" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25358853" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5661882" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.107967235" sideWeight="0.7065391" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29346094" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -241,7 +275,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -306,19 +339,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/filereader.html</url>
+          <line>48</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/filereader.html</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="51" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="118" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="22" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
@@ -336,16 +375,17 @@
     <entry file="file://$PROJECT_DIR$/js/jit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2622" column="39" selection-start="73204" selection-end="73204" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#478858#480585#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -366,21 +406,10 @@
     <entry file="file://$PROJECT_DIR$/js/jit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2622" column="39" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2622" column="39" selection-start="73204" selection-end="73204" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/example2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="639" column="82" selection-start="15776" selection-end="15776" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#478858#480585#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -391,12 +420,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="17" selection-start="945" selection-end="945" vertical-scroll-proportion="0.4479638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/E4X.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="14" selection-start="2566" selection-end="2566" vertical-scroll-proportion="5.7568183">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.3325527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="21" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.33245382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filereader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="23" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-5.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="118" selection-start="852" selection-end="852" vertical-scroll-proportion="0.029565217">
+        <state line="18" column="68" selection-start="824" selection-end="824" vertical-scroll-proportion="11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6696" column="20" selection-start="214088" selection-end="214091" vertical-scroll-proportion="-6.32">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#478858#480585#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/example2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="506" column="19" selection-start="14748" selection-end="14748" vertical-scroll-proportion="0.6785714">
+          <folding />
         </state>
       </provider>
     </entry>
