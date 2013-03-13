@@ -77,13 +77,12 @@
                         var inputFileContent = e.target.result;
                         //document.getElementById('filecontent').innerHTML = inputFileContent;
 
-                        var dp = new DotParser();
-                        var jsonFile = dp.parse(inputFileContent);
+                        var jsonFile = DotParser.parse(inputFileContent);
 
                         init(jsonFile)
                         document.getElementById('maindiv').style.visibility = 'visible';
-                        document.getElementById('fileloader').style.visibility = 'visible';
-                        document.getElementById('maindiv').style.visibility = 'visible';
+                        document.getElementById('fileloader').style.visibility = 'hidden';
+                        (Eobj = document.getElementById('fileloader')).parentNode.removeChild(Eobj);
                     };//end onload()
                     reader.readAsText(file);
                 }//end if html5 filelist support
