@@ -21,6 +21,7 @@
 
     <!-- Example File -->
     <script language="javascript" type="text/javascript" src="js/example2.js"></script>
+
 </head>
 <body>
 
@@ -66,6 +67,7 @@
         </script>
 
 
+        <script language="javascript" type="text/javascript" src="js/dot.js"></script>
         <script type="text/javascript">
             var reader = new FileReader();
 
@@ -78,11 +80,15 @@
                         //document.getElementById('filecontent').innerHTML = inputFileContent;
 
                         var jsonFile = DotParser.parse(inputFileContent);
+                        var strJson = JSON.stringify(jsonFile);
 
-                        init(jsonFile)
+                        dparse(inputFileContent); //console output only
+                         alert("Type jsonstr ="+typeof(strJson));
+                        init(strJson)          ;
                         document.getElementById('maindiv').style.visibility = 'visible';
-                        document.getElementById('fileloader').style.visibility = 'hidden';
-                        (Eobj = document.getElementById('fileloader')).parentNode.removeChild(Eobj);
+                        //document.getElementById('fileloader').style.visibility = 'hidden';
+                        document.getElementById('drop_zone').innerText = strJson;
+                      //  (Eobj = document.getElementById('fileloader')).parentNode.removeChild(Eobj);
                     };//end onload()
                     reader.readAsText(file);
                 }//end if html5 filelist support
