@@ -77,13 +77,9 @@
                     var reader = new FileReader();
                     reader.onload = function (e) {
                         var inputFileContent = e.target.result;
-                       // var strJson = JSON.stringify(inputFileContent);
-                        //document.getElementById('filecontent').innerHTML = inputFileContent;
-
-                        //var strJson = JSON.parse(inputFileContent);
-                        var strJson = eval("[" + inputFileContent + ']');
+                        strJson = eval("[" + inputFileContent + ']');
                         cstrJson=eval(strJson);
-                        init(strJson, 'RG');
+                        init(cstrJson, 'RG');
 
                         document.getElementById('maindiv').style.visibility = 'visible';
                         document.getElementById('fileloader').style.visibility = 'hidden';
@@ -117,8 +113,24 @@
         <div id="container">
 
             <div id="left-container">
-                <button type="button" onclick= "strJson=eval(cstrJson); init(strJson,'RG'); document.getElementById('maindiv').style.visibility = 'visible';">Rgraph</button>
-                <button type="button" onclick= "strJson=eval(cstrJson); init(strJson,'FD'); document.getElementById('maindiv').style.visibility = 'visible';">ForceDirected</button>
+                <button type="button" onclick= "fd.graph.eachNode(function(node){{
+                node.pos.setc(0, 0);
+                fd.plot();
+                }});
+                ">InDot</button>
+                <button type="button" onclick= "var i = -250; fd.graph.eachNode(function(node){{
+                node.pos.setc(0, i);
+                fd.plot();
+                i+=50;
+                }});
+                ">InLine</button>
+
+                <button type="button" onclick= "fd.fx.animate({
+                                                modes:['linear'
+                                                ],
+                                                duration: 0
+                                               })
+                ">RGraph</button>
 
                 <div id="id-list"></div>
 

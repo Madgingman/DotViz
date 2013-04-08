@@ -31,8 +31,7 @@ function init(json, type) {
     // init ForceDirected
     if(type=="FD")
     {
-        fd=null;
-    var fd = new $jit.ForceDirected({
+         fd = new $jit.ForceDirected({
         //id of the visualization container
         injectInto: 'infovis',
         //Enable zooming and panning
@@ -178,8 +177,7 @@ function init(json, type) {
     }
     else if(type=="RG")
     {
-        fd=null;
-        var fd = new $jit.RGraph({
+            fd = new $jit.RGraph({
             //id of the visualization container
             injectInto: 'infovis',
             //Enable zooming and panning
