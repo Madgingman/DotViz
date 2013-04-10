@@ -82,7 +82,7 @@
                         init(cstrJson, 'RG');
 
                         document.getElementById('maindiv').style.visibility = 'visible';
-                        document.getElementById('fileloader').style.visibility = 'hidden';
+                        document.getElementById('fileloader').style.display = 'none';
                         document.getElementById('drop_zone').innerText = strJson;
                       //  (Eobj = document.getElementById('fileloader')).parentNode.removeChild(Eobj);
                     };//end onload()
@@ -113,19 +113,23 @@
         <div id="container">
 
             <div id="left-container">
-                <button type="button" onclick= "fd.graph.eachNode(function(node){{
+                <button type="button" style="width:100px;" onclick= "fd.graph.eachNode(function(node){{
                 node.pos.setc(0, 0);
                 fd.plot();
                 }});
                 ">InDot</button>
-                <button type="button" onclick= "var i = -250; fd.graph.eachNode(function(node){{
+
+                <br />
+
+
+                <button type="button" style="width:100px;" onclick= "var i = -250; fd.graph.eachNode(function(node){{
                 node.pos.setc(0, i);
                 fd.plot();
                 i+=50;
                 }});
                 ">InLine</button>
-
-                <button type="button" onclick= "fd.fx.animate({
+                         <br />
+                <button type="button" style="width:100px;" onclick= "fd.fx.animate({
                                                 modes:['linear'
                                                 ],
                                                 duration: 0
@@ -135,7 +139,7 @@
                 <div id="id-list"></div>
 
 
-                <div style="text-align:center;"><a href="js/example2.js"></a></div>
+                <!--<div style="text-align:center;"><a href="js/example2.js"></a></div>-->
             </div>
 
             <div id="center-container">
