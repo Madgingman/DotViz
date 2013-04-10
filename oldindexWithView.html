@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link type="text/css" href="css/loader.css" rel="stylesheet"/>
+    <script language="javascript" type="text/javascript" src="js/DotToJson.js"></script>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>ForceDirected - Graph Operations</title>
+
+    <!-- CSS Files -->
+    <link type="text/css" href="css/base.css" rel="stylesheet"/>
+    <link type="text/css" href="css/ForceDirected.css" rel="stylesheet"/>
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="Extras/excanvas.js"></script><![endif]-->
+
+    <!-- JIT Library File -->
+    <script language="javascript" type="text/javascript" src="js/jit.js"></script>
+
+    <!-- Example File -->
+    <script language="javascript" type="text/javascript" src="js/example2.js"></script>
+
+</head>
+<body>
+
+<div id="bodydiv">
+    <div id="fileloader">
+        <div id="drop_zone">Drop DOT(JUST JSON) FILE here</div>
+
+
+        <script>
+            function handleFileSelect(evt) {
+                evt.stopPropagation();
+                evt.preventDefault();
+
+                var file = evt.dataTransfer.files[0]; // FileList object.
+                processFile(file);
+                readText(file);
+            }
+
+            function handleDragOver(evt) {
+                evt.stopPropagation();
+                evt.preventDefault();
+                evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+            }
+
+            // Setup the dnd listeners.
+            var dropZone = document.getElementById('drop_zone');
+            dropZone.addEventListener('dragover', handleDragOver, false);
+            dropZone.addEventListener('drop', handleFileSelect, false);
+        </script>
+
+
+        <input type="file" id="fileInputForm" name="files[]"/>
+        <output id="list"></output>
+
+        <script>
+            function fileInputFormHandleFileSelect(evt) {
+                var file = evt.target.files[0]; // FileList object
+                processFile(file);
+                readText(file);
+            }
+
+            document.getElementById('fileInputForm').addEventListener('change', fileInputFormHandleFileSelect, false);
+        </script>
+
+
+        <script language="javascript" type="text/javascript" src="js/dot.js"></script>
+        <script type="text/javascript">
+            var reader = new FileReader();
+
+            function readText(file) {
+
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        var inputFileContent = e.target.result;
+                        strJson = eval("[" + inputFileContent + ']');
+                        cstrJson=eval(strJson);
+                        init(cstrJson, 'RG');
+
+                        document.getElementById('maindiv').style.visibility = 'visible';
+                        document.getElementById('fileloader').style.visibility = 'hidden';
+                        document.getElementById('drop_zone').innerText = strJson;
+                      //  (Eobj = document.getElementById('fileloader')).parentNode.removeChild(Eobj);
+                    };//end onload()
+                    reader.readAsText(file);
+                }//end if html5 filelist support
+            }
+
+
+            function processFile(file) {
+                // files is a FileList of File objects. List some properties.
+                var output = [];
+                var i = 0;
+                output.push('<li><strong>', escape(file.name), '</strong> (', file.type || 'n/a', ') - ',
+                        file.size, ' bytes, last modified: ',
+                        file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() : 'n/a',
+                        '</li>');
+
+                document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+
+            }
+        </script>
+
+
+    </div>
+
+    <div id="maindiv" style="visibility: hidden">
+
+        <div id="container">
+
+            <div id="left-container">
+                <button type="button" onclick= "fd.graph.eachNode(function(node){{
+                node.pos.setc(0, 0);
+                fd.plot();
+                }});
+                ">InDot</button>
+                <button type="button" onclick= "var i = -250; fd.graph.eachNode(function(node){{
+                node.pos.setc(0, i);
+                fd.plot();
+                i+=50;
+                }});
+                ">InLine</button>
+
+                <button type="button" onclick= "fd.fx.animate({
+                                                modes:['linear'
+                                                ],
+                                                duration: 0
+                                               })
+                ">RGraph</button>
+
+                <div id="id-list"></div>
+
+
+                <div style="text-align:center;"><a href="js/example2.js"></a></div>
+            </div>
+
+            <div id="center-container">
+                <div id="infovis"></div>
+            </div>
+
+
+            <div id="right-container">
+
+                <div id="inner-details"></div>
+
+            </div>
+
+            <div id="log"></div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
